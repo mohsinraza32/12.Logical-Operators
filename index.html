@@ -28,14 +28,14 @@
 
         //Truth Table of Logical And(&&) Operator
         
-        //True && True = True
-        //True && False = False
-        //False && True = False
-        //False && False = False
+        //true && true = true
+        //true && false = false
+        //false && true = false
+        //false && false = false
 
-        let age = +prompt("Enter Your Age");
-         let yearOfEducation = +prompt("Enter your year of education");
-         let city = prompt("Enter your city");
+        // let age = +prompt("Enter Your Age");
+        //  let yearOfEducation = +prompt("Enter your year of education");
+        //  let city = prompt("Enter your city");
      
         // if( age < 18 && yearOfEducation > 10 && city === "karachi" ){ // logical and (&&) operator
         //     console.log("You are eligible");
@@ -45,14 +45,40 @@
         // }
 
         //Truth Table of Logical or(||) operator
-        // True || True = True
-        // True || False = True
-        // False || True = True
-        // False || False = False
+        // true || true = true
+        // true || false = true
+        // false || true = true
+        // false || false = false
        
-        if( age > 18 && yearOfEducation >= 10  ||  age < 26 && yearOfEducation >= 16  && city === "karachi"){
-             console.log("You are eligible");
-        } 
+        // if( age > 18 && yearOfEducation >= 10  ||  age < 26 && yearOfEducation >= 16  && city === "karachi"){
+        //      console.log("You are eligible");
+        // } 
+
+        // Truth Table of Logical Not(!) Operator
+
+        //!true = false
+        //!alse = true
+        //!"cow" = false
+        //!""   = true
+        //"0"  = false
+        //!3   = false
+        //!0  = true
+
+        let isOpen = true;
+
+        if(isOpen){
+            console.log("close the door");
+        }
+        if(!isOpen){
+            console.log("door is already closed");
+        }
+
+        let isActive = false;
+        let(!isActive){         // null check
+           alert("your account is blocked");
+        }
+
+
 
         
     </script>
